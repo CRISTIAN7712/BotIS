@@ -1,0 +1,194 @@
+[
+  {
+    "file": "c:\\Users\\crist\\botIS\\base-baileys-memory\\stateWriting.js",
+    "scanResult": {
+      "message": "connect ETIMEDOUT 10.8.15.230:443",
+      "name": "Error",
+      "stack": "Error: connect ETIMEDOUT 10.8.15.230:443\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1247:16)",
+      "config": {
+        "url": "https://starling.bytedance.net/openapi/getRegularTranslation",
+        "method": "post",
+        "data": "{\"text_list\":[\"/**\\r\\n * Función para simular la acción de escribir en un chat durante un cierto período de tiempo.\\r\\n *\\r\\n * @param {Object} provider - Proveedor de mensajería utilizado para enviar actualizaciones de presencia.\\r\\n * @param {Object} ctx - Contexto del chat que contiene información relevante.\\r\\n * @param {number} ms - Tiempo en milisegundos durante el cual se simula la escritura.\\r\\n * @returns {Promise} - Una promesa que se resuelve después de que la simulación haya terminado.\\r\\n */\",\"// Obtiene una instancia del proveedor de mensajería.\"],\"trg_lang\":\"en\",\"src_lang\":\"\",\"glossary_list\":[],\"mime_type\":0,\"extra\":{\"api\":\"google\"}}",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "Content-Type": "application/json;charset=utf-8",
+          "User-Agent": "axios/0.21.1",
+          "Content-Length": 664
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      },
+      "code": "ETIMEDOUT"
+    },
+    "engine": "google"
+  },
+  {
+    "file": "c:\\Users\\crist\\botIS\\base-baileys-memory\\Services\\data\\_connect.js",
+    "scanResult": {
+      "message": "connect ETIMEDOUT 10.8.15.230:443",
+      "name": "Error",
+      "stack": "Error: connect ETIMEDOUT 10.8.15.230:443\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1247:16)",
+      "config": {
+        "url": "https://starling.bytedance.net/openapi/getRegularTranslation",
+        "method": "post",
+        "data": "{\"text_list\":[\"//${MONGO_HOST}/${MONGO_DB}`;\"],\"trg_lang\":\"en\",\"src_lang\":\"\",\"glossary_list\":[],\"mime_type\":0,\"extra\":{\"api\":\"google\"}}",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "Content-Type": "application/json;charset=utf-8",
+          "User-Agent": "axios/0.21.1",
+          "Content-Length": 135
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      },
+      "code": "ETIMEDOUT"
+    },
+    "engine": "google"
+  },
+  {
+    "file": "c:\\Users\\crist\\botIS\\base-baileys-memory\\prompt.js",
+    "scanResult": {
+      "message": "connect ETIMEDOUT 10.8.15.230:443",
+      "name": "Error",
+      "stack": "Error: connect ETIMEDOUT 10.8.15.230:443\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1247:16)",
+      "config": {
+        "url": "https://starling.bytedance.net/openapi/getRegularTranslation",
+        "method": "post",
+        "data": "{\"text_list\":[\"//const PROMPT = ['Quiero que actues como un chatbot de proceso investigativo de una universidad y que no respondas preguntas fuera de este temas']\",\"//const PROMPT = ['Quiero que actues como un chatbot del proceso investigativo de una universidad']\"],\"trg_lang\":\"en\",\"src_lang\":\"\",\"glossary_list\":[],\"mime_type\":0,\"extra\":{\"api\":\"google\"}}",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "Content-Type": "application/json;charset=utf-8",
+          "User-Agent": "axios/0.21.1",
+          "Content-Length": 355
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      },
+      "code": "ETIMEDOUT"
+    },
+    "engine": "google"
+  },
+  {
+    "file": "c:\\Users\\crist\\botIS\\base-baileys-memory\\chatgpt.js",
+    "scanResult": {
+      "message": "connect ETIMEDOUT 10.8.6.219:443",
+      "name": "Error",
+      "stack": "Error: connect ETIMEDOUT 10.8.6.219:443\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1247:16)",
+      "config": {
+        "url": "https://starling.bytedance.net/openapi/getRegularTranslation",
+        "method": "post",
+        "data": "{\"text_list\":[\"/**\\r\\n   * Esta funciona inicializa\\r\\n   */\",\"/**\\r\\n   * Manejador de los mensajes\\r\\n   * sun funcion es enviar un mensaje a wahtsapp\\r\\n   * @param {*} ctx \\r\\n   */\"],\"trg_lang\":\"en\",\"src_lang\":\"\",\"glossary_list\":[],\"mime_type\":0,\"extra\":{\"api\":\"google\"}}",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "Content-Type": "application/json;charset=utf-8",
+          "User-Agent": "axios/0.21.1",
+          "Content-Length": 276
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      },
+      "code": "ETIMEDOUT"
+    },
+    "engine": "google"
+  },
+  {
+    "file": "c:\\Users\\crist\\botIS\\base-baileys-memory\\chatgpt.class.js",
+    "scanResult": {
+      "message": "connect ETIMEDOUT 10.8.6.219:443",
+      "name": "Error",
+      "stack": "Error: connect ETIMEDOUT 10.8.6.219:443\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1247:16)",
+      "config": {
+        "url": "https://starling.bytedance.net/openapi/getRegularTranslation",
+        "method": "post",
+        "data": "{\"text_list\":[\"//require('dotenv').config()\",\"//console.log('h');\",\"//sconsole.log(configuration);\",\"//n: 100, \"],\"trg_lang\":\"en\",\"src_lang\":\"\",\"glossary_list\":[],\"mime_type\":0,\"extra\":{\"api\":\"google\"}}",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "Content-Type": "application/json;charset=utf-8",
+          "User-Agent": "axios/0.21.1",
+          "Content-Length": 202
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      },
+      "code": "ETIMEDOUT"
+    },
+    "engine": "google"
+  },
+  {
+    "file": "c:\\Users\\crist\\botIS\\base-baileys-memory\\app.js",
+    "scanResult": {
+      "message": "connect ETIMEDOUT 10.8.6.219:443",
+      "name": "Error",
+      "stack": "Error: connect ETIMEDOUT 10.8.6.219:443\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1247:16)",
+      "config": {
+        "url": "https://starling.bytedance.net/openapi/getRegularTranslation",
+        "method": "post",
+        "data": "{\"text_list\":[\"//const mysql = require('mysql');\",\"// Manejar la excepción cuando la API no responde en este bloque\",\"// Puedes agregar un mensaje de error o tomar alguna otra acción apropiada aquí\",\"// const flowPregunta = addKeyword('##_flow_pregunta_##')\",\"//   .addAnswer('*Preguntale a BotIS* 🤖')\",\"//   .addAnswer('🤖 Conectando con la inteligencia artificial de *BotIS...* \\\\n\\\\nPor favor, espera un momento.🕜 \\\\n\\\\nRecuerda que para volver al *menú principal* , solo necesitas escribir la palabra *salir*. 💻📲', null, async (ctx, { provider }) => {\",\"//     await typing(provider, ctx, 4000);\",\"//     await chatGPTInstance.handleMsgChatGPT(PROMPT)\",\"//   })\",\"//   .addAnswer('✔️ *Todo esta listo* ✔️ \\\\n\\\\nEscribe tu pregunta sobre el proceso investigativo 🤔❓ de *Ingenieria de Sistemas* de la *Universidad Mariana*',\",\"//     { capture: true }, async (ctx, { flowDynamic, fallBack, gotoFlow, provider }) => {\",\"//       const response = await chatGPTInstance.handleMsgChatGPT(ctx.body);\",\"//       const message = response.text;\",\"//       if (!/^salir$/i.test(ctx.body.toString())) {\",\"//         await typing(provider, ctx, 4000);\",\"//         await fallBack(message);\",\"//       }\",\"//       else if (/(^|\\\\s)salir(\\\\s|$)/i.test(ctx.body.toString())) {\",\"//         gotoFlow(flowMenu2)\",\"//       }\",\"//     })\",\"// const flowPregunta = addKeyword(['Preguntas sobre el proceso investigativo 🤔❓', 'Realizar otra pregunta🤔📜', 'Pregunta', 'Preguntas'])\",\"// .addAnswer('La respuesta puede demorar según la complejidad de tú pregunta. 🕗')\",\"// .addAnswer('Realiza tu pregunta sobre el proceso investigativo. 🤖❓',{capture:true}, async (ctx, {flowDynamic}) => {\",\"//     let message = ctx.body;\",\"//     DATOS[ctx.from] = {...DATOS[ctx.from], MSGPregunta:ctx.body}\",\"//     DATOS[ctx.from] = {...DATOS[ctx.from], Movil:ctx.from}\",\"//     console.log('=====>>', DATOS[ctx.from])\",\"//     try {\",\"//         const result = await ChatGPTClass.runCompletion(message);\",\"//         const connection = await pool.getConnection(); \",\"//       const [rows, fields] = await connection.execute(\",\"//         'INSERT INTO preguntasgpt (telefono, pregunta, respuesta) VALUES (?, ?, ?)',\",\"//         [DATOS[ctx.from].Movil, DATOS[ctx.from].MSGPregunta, result]\",\"//       );\",\"//         return flowDynamic('*La respuesta a tu pregunta es:*\\\\n'+result);\",\"//     } catch (error) {\",\"//         console.log(error);\",\"//         return flowDynamic('⚠ Lo siento, ocurrió un error al procesar tu pregunta. Por favor, inténtalo de nuevo más tarde.');\",\"//     }\",\"// })\",\"// .addAnswer('Selecciona una opción:')\",\"// .addAnswer(['Pregunta: Para realizar otra pregunta🤔📜', 'Menú 🔙😃', 'Finalizar 🔚🤓'])\",\"// Conecta a la base de datos MySQL\",\"// Ejecuta una consulta SQL para obtener los datos de la tabla 'tesisProgramadas'\",\"// Cierra la conexión a la base de datos MySQL\",\"// Si no se encontraron fechas, envía un mensaje informativo\",\"// Conecta a la base de datos MySQL\",\"// Ejecuta una consulta SQL para obtener los datos de la tabla 'tesisProgramadas'\",\"// Cierra la conexión a la base de datos MySQL\",\"// Si no se encontraron fechas, envía un mensaje informativo\",\"// Configura los parámetros de conexión a la base de datos MySQL\",\"// Conecta a la base de datos MySQL\",\"// Ejecuta una consulta SQL para obtener los datos de la tabla 'tesisProgramadas'\",\"// Cierra la conexión a la base de datos MySQL\",\"// Conecta a la base de datos MySQL\",\"// Ejecuta una consulta SQL para obtener los datos de la tabla 'tesisProgramadas'\",\"// Cierra la conexión a la base de datos MySQL\",\"// Función para validar el correo electrónico\",\"// Conexión a la base de datos\",\"// Ejecutar la consulta\",\"// Procesar los resultados\",\"// Cerrar la conexión a la base de datos\",\"// Función para validar el correo electrónico\",\"// Conexión a la base de datos\",\"// Ejecutar la consulta\",\"// Procesar los resultados\",\"// Cerrar la conexión a la base de datos\",\"// Flujo principal del chatbot\",\"// Envío de notificación si se retorna fallBack 3 veces\",\"// Código para enviar la notificación\"],\"trg_lang\":\"en\",\"src_lang\":\"\",\"glossary_list\":[],\"mime_type\":0,\"extra\":{\"api\":\"google\"}}",
+        "headers": {
+          "Accept": "application/json, text/plain, */*",
+          "Content-Type": "application/json;charset=utf-8",
+          "User-Agent": "axios/0.21.1",
+          "Content-Length": 4243
+        },
+        "transformRequest": [
+          null
+        ],
+        "transformResponse": [
+          null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1
+      },
+      "code": "ETIMEDOUT"
+    },
+    "engine": "google"
+  }
+]

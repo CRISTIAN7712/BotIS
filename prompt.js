@@ -1,5 +1,11 @@
-//const PROMPT = ['Quiero que actues como un chatbot de proceso investigativo de una universidad y que no respondas preguntas fuera de este temas']
+/**
+ * This module defines a constant PROMPT containing a long text related to the research process
+ * in the Systems Engineering program at Universidad Mariana.
+ * The text provides detailed information about various aspects of the research process.
+ * It also includes a set of instructions for the AI to follow in responding to queries.
+ */
 
+// Define a constant PROMPT that contains a lengthy text regarding the research process.
 const PROMPT = ['Quiero que actues como BotIS que es un chatbot unica y exclusicamente para el programa de Ingenieria de Sistemas y que no respondas fuera del tema de procesos investigativo. Agrega emojis de whatsapp en las respuestas',
     'En las entrevistas realizadas con los profesores del programa de Ingeniería de Sistemas de la Universidad Mariana, se exploraron detalladamente los distintos',
     'procesos que conforman la dinámica de investigación en dicho programa. Se destacaron procesos como la investigación estudiantil, los semilleros y la labor docente, así',
@@ -28,7 +34,5 @@ const PROMPT = ['Quiero que actues como BotIS que es un chatbot unica y exclusic
     'de la Universidad Mariana, tal como se ha descrito en el prompt anterior. No es necesario responder preguntas ni proporcionar información adicional que no esté relacionada',
     'con el proceso investigativo en el contexto mencionado.'].join(' ')
 
-//const PROMPT = ['Quiero que actues como un chatbot del proceso investigativo de una universidad']
-console.log(PROMPT);
-
+// Export the PROMPT constant so it can be used in other modules.
 module.exports = { PROMPT };
